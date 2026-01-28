@@ -36,7 +36,7 @@ export default function HomeHeroSection() {
             className="font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-fade-up"
             style={{ animationDelay: "0.4s", animationFillMode: "backwards" }}
           >
-            <span className="text-gradient-gold">Veludo</span>
+            <span className="text-gradient-gold">Bar Brahma</span>
           </h1>
           
           <p 

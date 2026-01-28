@@ -1,6 +1,5 @@
 import { Button } from '@/components/ui/button'
 import { Clock, Facebook, Instagram, MapPin, Music, Phone } from 'lucide-react'
-import React from 'react'
 
 export default function HomeContactSection() {
   return (
@@ -11,7 +10,7 @@ export default function HomeContactSection() {
             Visite-nos
           </p>
           <h2 className="font-display text-3xl md:text-5xl font-bold mb-6">
-            Encontre o <span className="text-gradient-gold">Veludo</span>
+            Encontre o <span className="text-gradient-gold">Brahma</span>
           </h2>
         </div>
 
@@ -19,33 +18,33 @@ export default function HomeContactSection() {
           {/* Contact Info */}
           <div className="space-y-8">
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
                 <MapPin className="text-primary" size={20} />
               </div>
               <div>
                 <h3 className="font-display text-lg font-semibold mb-1">Endereço</h3>
                 <p className="text-muted-foreground">
-                  Rua das Flores, 123 - Centro<br />
-                  São Paulo, SP - 01310-100
+                  Av. São João, 677 - Centro Histórico de São Paulo,<br />
+                  São Paulo - SP, 01036-000
                 </p>
               </div>
             </div>
 
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
                 <Phone className="text-primary" size={20} />
               </div>
               <div>
                 <h3 className="font-display text-lg font-semibold mb-1">Reservas</h3>
                 <p className="text-muted-foreground">
-                  (11) 99999-9999<br />
-                  reservas@veludo.com.br
+                  (11) 94746-2664<br />
+                  https://www.getin.app/sao-paulo/bar-brahma
                 </p>
               </div>
             </div>
 
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
                 <Clock className="text-primary" size={20} />
               </div>
               <div>

@@ -25,7 +25,7 @@ const features = [
 
 export default function HomeAboutSection () {
   return (
-    <section id="about" className="py-20 md:py-32 bg-card">
+    <section id="about" className="px-4 xl:px-12 py-20 md:py-32 bg-card">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <p className="text-primary font-body text-sm uppercase tracking-[0.2em] mb-4">
@@ -35,7 +35,8 @@ export default function HomeAboutSection () {
             Mais que um bar, uma <span className="text-gradient-gold">experiência</span>
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Fundado em 2020, o Veludo nasceu da paixão por criar momentos únicos. 
+            {/* chat gpt */}
+            Fundado em 2020, o bar brahma nasceu da paixão por criar momentos únicos. 
             Nosso espaço combina a elegância de um speakeasy clássico com a energia 
             da vida noturna contemporânea. Aqui, cada drink conta uma história e 
             cada noite é uma celebração.
